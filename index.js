@@ -12,7 +12,7 @@ app.get('/login', (req, res) => {
 })
 
 app.get('/signup', (req, res) => {
-  res.send('<h1>signup please</h1>')
+  res.send('<h1>signup please ok</h1>')
 })
 
 app.listen(process.env.PORT, () => {
